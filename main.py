@@ -36,7 +36,7 @@ def book_report(text, num_words, book_path):
     new_list.sort(reverse=True, key=sort_on)
 
    #Report generation
-    print(f"--- Begin report of {book_path}---")
+    print(f"--- Begin report of {book_path} ---")
     print(f"{num_words} words found in the document.")
     print(f"")
     for item in new_list:
